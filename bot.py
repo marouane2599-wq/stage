@@ -87,8 +87,16 @@ def fetch_linkedin(cfg: dict) -> tuple[list, int, int]:
     jobs, ok, ko = [], 0, 0
     max_age = int(cfg.get("max_age_hours", 24)) * 3600
     base = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
-    for kw in cfg.get("keywords", []):
-        for loc in cfg.get("locations", []):
+    # LinkedIn bloque si on enchaîne trop de recherches : on n'en fait que
+    # quelques-unes par passage, à tour de rôle (toutes couvertes en ~1 h)
+    combos = [(kw, loc) for kw in cfg.get("keywords", []) for loc in cfg.get("locations", [])]
+    per_run = max(1, int(cfg.get("queries_per_run", 3)))
+    n_batches = max(1, -(-len(combos) // per_run))
+    batch = int(time.time() // 600) % n_batches
+    selected = combos[batch * per_run:(batch + 1) * per_run]
+    print(f"[linkedin] lot {batch + 1}/{n_batches} : {selected}")
+    for kw, loc in selected:
+        if True:
             params = {
                 "keywords": kw,
                 "location": loc,
@@ -100,6 +108,11 @@ def fetch_linkedin(cfg: dict) -> tuple[list, int, int]:
             }
             try:
                 r = requests.get(base, params=params, headers=HEADERS, timeout=20)
+                if r.status_code == 429:
+                    wait = random.uniform(20, 40)
+                    print(f"[linkedin] 429, nouvel essai dans {wait:.0f} s")
+                    time.sleep(wait)
+                    r = requests.get(base, params=params, headers=HEADERS, timeout=20)
                 if r.status_code == 429:
                     print("[linkedin] 429 trop de requêtes, on arrête LinkedIn pour ce passage")
                     ko += 1

@@ -22,6 +22,9 @@ linkedin:
     - "Paris, Île-de-France, France"
     - "Luxembourg"
     - "Monaco"
+  # Nombre de recherches par passage (à tour de rôle). Plus = plus de
+  # risque que LinkedIn bloque. 3 toutes les 10 min = tout couvert en 1 h.
+  queries_per_run: 3
   # Uniquement les offres publiées dans les X dernières heures
   max_age_hours: 24
 
