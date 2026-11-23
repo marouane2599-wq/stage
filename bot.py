@@ -93,6 +93,7 @@ def fetch_linkedin(cfg: dict) -> tuple[list, int, int]:
                 "keywords": kw,
                 "location": loc,
                 "f_JT": "I",            # type de contrat : stage
+                "f_E": "1",             # niveau d'expérience : stage
                 "f_TPR": f"r{max_age}",  # publié depuis moins de X secondes
                 "sortBy": "DD",         # plus récentes d'abord
                 "start": 0,
@@ -261,9 +262,13 @@ def keep(job: dict, conf: dict) -> bool:
         return False
     if contains_any(title, f["exclude"]) or is_vie(title):
         return False
+    if contains_any(title, f.get("seniority", [])):
+        return False
+    # L'intitulé doit dire que c'est un stage (le filtre "stage" de LinkedIn
+    # laisse passer des CDI)
+    if not contains_any(title, conf.get("internship_terms", [])):
+        return False
     if not job["is_internship_source"]:
-        if not contains_any(title, conf.get("internship_terms", [])):
-            return False
         loc = job.get("location", "")
         # Workday affiche parfois "3 Locations" : dans le doute on garde
         if loc and not re.search(r"\d+\s+locations?", loc, re.I):

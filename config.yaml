@@ -9,13 +9,15 @@
 linkedin:
   # Recherches lancées à chaque passage (mot-clé x lieu).
   # Garde la liste courte : trop de requêtes = LinkedIn te bloque.
+  # Mettre "stage" / "intern" dans la recherche aide LinkedIn à ramener
+  # des stages de toutes les tailles d'entreprise, pas que des CDI
   keywords:
-    - risk
-    - risque
-    - middle office
-    - back office
-    - ALM
-    - wealth planning
+    - stage risque
+    - risk intern
+    - stage middle office
+    - stage back office
+    - stage ALM
+    - stage finance de marché
   locations:
     - "Paris, Île-de-France, France"
     - "Luxembourg"
@@ -113,6 +115,24 @@ filters:
     - stage de 2 mois
     - stage de 3 mois
     - summer
+  # Postes expérimentés à éliminer (même si "stage" apparaît quelque part)
+  seniority:
+    - senior
+    - manager
+    - head
+    - director
+    - directeur
+    - directrice
+    - responsable
+    - chef
+    - cheffe
+    - lead
+    - confirme
+    - experimente
+    - expert
+    - vp!
+    - vice president
+    - principal
   # Termes qui donnent le badge 🔥 (ton cœur de cible)
   priority:
     - market risk
@@ -130,7 +150,7 @@ filters:
     - valuation
     - investment restriction
 
-# Pour Workday / SmartRecruiters, l'offre doit être un stage
-# et se situer dans un de ces lieux (si le lieu est connu)
-internship_terms: ["stage", "stagiaire", "intern", "internship", "trainee"]
+# L'intitulé doit contenir un de ces termes (sinon ce n'est pas un stage)
+internship_terms: ["stage", "stagiaire", "intern", "internship", "trainee", "off-cycle"]
+# Pour les sites carrières hors LinkedIn : lieux acceptés (si le lieu est connu)
 allowed_locations: ["paris", "ile-de-france", "la defense", "puteaux", "montrouge", "courbevoie", "nanterre", "neuilly", "saint-denis", "france", "luxembourg", "monaco"]
