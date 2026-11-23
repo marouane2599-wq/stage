@@ -342,12 +342,23 @@ def main() -> int:
         return 0
 
     all_jobs, total_ok, total_ko = [], 0, 0
+    src_fail = state.setdefault("source_failures", {})
     for fetch, key in [(fetch_linkedin, "linkedin"), (fetch_talentsoft, "talentsoft"),
                        (fetch_workday, "workday"), (fetch_smartrecruiters, "smartrecruiters")]:
         jobs, ok, ko = fetch(conf.get(key) or {})
         all_jobs += jobs
         total_ok += ok
         total_ko += ko
+        # suivi des pannes par source (seulement si au moins un appel a échoué
+        # et qu'aucun n'a réussi)
+        if ko and not ok:
+            src_fail[key] = src_fail.get(key, 0) + 1
+            n = src_fail[key]
+            if n % FAIL_ALERT_EVERY == 0 and total_ok + ok > 0:
+                tg_send(f"⚠️ La source « {key} » ne répond plus depuis {n} passages. "
+                        "Les autres sources tournent normalement.")
+        elif ok:
+            src_fail[key] = 0
     print(f"Requêtes OK : {total_ok}, en erreur : {total_ko}, offres brutes : {len(all_jobs)}")
 
     # dédoublonnage (même offre trouvée par plusieurs mots-clés)
