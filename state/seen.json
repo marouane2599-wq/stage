@@ -363,6 +363,14 @@
    "sig": "amundi|stage - assistant chef de projets evenementiels h/f",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "ts:jobs.amundi.com:115644": {
+   "sig": "amundi|stage - assistant gerant de fonds – dette privee h/f",
+   "t": "2026-11-23T15:30:55+00:00"
+  },
+  "ts:jobs.amundi.com:116635": {
+   "sig": "amundi|stage - analyste multigestion infrastructures h/f",
+   "t": "2026-11-23T15:30:55+00:00"
+  },
   "ts:jobs.amundi.com:116764": {
    "sig": "amundi|chef de projet clients strategiques en actionnariat salarie h/f",
    "t": "2026-11-23T10:06:22+00:00"
@@ -430,6 +438,10 @@
   "ts:jobs.amundi.com:117695": {
    "sig": "amundi|stage – business analyst moa gestion & it front office project h/f",
    "t": "2026-11-23T14:50:46+00:00"
+  },
+  "ts:jobs.amundi.com:117696": {
+   "sig": "amundi|stage - expertise applicatif front office - commando asset management software h/f",
+   "t": "2026-11-23T15:30:55+00:00"
   },
   "ts:jobs.amundi.com:99916": {
    "sig": "amundi|senior project manager m/f",
@@ -597,7 +609,7 @@
   }
  },
  "source_failures": {
-  "linkedin": 0,
+  "linkedin": 1,
   "talentsoft": 0
  }
 }
