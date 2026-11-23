@@ -11,6 +11,14 @@
    "sig": "mutuaide|charge des risques operationnels & controle permanent h/f",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "li:4439230613": {
+   "sig": "pwc luxembourg|event coordinator trainee (m/f/d)",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
+  "li:4441622362": {
+   "sig": "celine|stage - assistant.e operations manager (f/h/x) - mars 2027",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
   "li:4448448931": {
    "sig": "ey|consultant(e) senior risk new technologies f/h (paris)",
    "t": "2026-11-23T10:06:22+00:00"
@@ -19,13 +27,33 @@
    "sig": "ey|manager risk new technologies f/h (paris)",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "li:4450324816": {
+   "sig": "chanel|stage – pilotage des livraisons et coordination des centres de distribution (h/f/x) – mode – janvier 2027",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
   "li:4450356390": {
    "sig": "goldman sachs|risk, market risk, analyst, paris",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "li:4457790115": {
+   "sig": "edmond de rothschild|specialiste onboarding, coba (h/f)",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
   "li:4458883585": {
    "sig": "bel|stage - assistant(e) reglementation securite alimentaire & risques emergents (h/f/x) - janvier 2027",
    "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4460352027": {
+   "sig": "scania group|service administrator - munsbach & schifflange",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
+  "li:4460814390": {
+   "sig": "maison francis kurkdjian|stage - assistant adv france & export - janvier 2027 f/h/nb",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
+  "li:4466915649": {
+   "sig": "atos|charge de missions immobilieres-stage f/h",
+   "t": "2026-11-23T12:34:35+00:00"
   },
   "li:4467858625": {
    "sig": "ey|intern valuation",
@@ -51,9 +79,17 @@
    "sig": "pwc france|consultant senior non financial risk f/h",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "li:4477699503": {
+   "sig": "select hr luxembourg|junior fund operations & governance administrator",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
   "li:4484492644": {
    "sig": "pwc france|stage consultant conformite & controle interne asset management f/h",
    "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4489955513": {
+   "sig": "fimexco sam|collaborateur/trice comptable h/f - cdi - monaco",
+   "t": "2026-11-23T12:34:35+00:00"
   },
   "li:4491302594": {
    "sig": "banque de france|idf_analyste financier h/f",
@@ -71,6 +107,10 @@
    "sig": "dalkia|stagiaire audit / controle interne et datamining (a partir de janvier 2027) f/h",
    "t": "2026-11-23T12:18:47+00:00"
   },
+  "li:4492932142": {
+   "sig": "figen ai|stagiaire service clients (cdi, h/f)",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
   "li:4493190875": {
    "sig": "anine bing|credit control intern",
    "t": "2026-11-23T12:18:47+00:00"
@@ -78,6 +118,14 @@
   "li:4493370181": {
    "sig": "groupe valmen|manager – risques et conformite",
    "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4493613580": {
+   "sig": "forvis mazars in luxembourg|trainee recruiter",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
+  "li:4493620970": {
+   "sig": "balenciaga|balenciaga - emea operations & facilities intern",
+   "t": "2026-11-23T12:34:35+00:00"
   },
   "li:4493622628": {
    "sig": "axionable|stagiaire fin d'etudes - consultant.e strategie data / ia (f/h)",
@@ -87,9 +135,17 @@
    "sig": "bnp paribas|internship - research analyst or strategy & market intelligence (m/f)",
    "t": "2026-11-23T12:18:47+00:00"
   },
+  "li:4493639499": {
+   "sig": "tikehau capital|internship - fund operations private equity (h/f) - january 2027",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
   "li:4493752948": {
    "sig": "fairly made|product regulatory affairs & compliance (legal) - internship (f/m/x)",
    "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4493754366": {
+   "sig": "welcome to the jungle france|revenue operations - internship january 2027",
+   "t": "2026-11-23T12:34:35+00:00"
   },
   "li:4493759883": {
    "sig": "john deere|financial internship",
@@ -98,6 +154,14 @@
   "li:4493766329": {
    "sig": "covea finance|stage controleur interne (h/f)",
    "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4493768146": {
+   "sig": "kitsune|stage - assistant.e production",
+   "t": "2026-11-23T12:34:35+00:00"
+  },
+  "li:4493772192": {
+   "sig": "husky technologies|hr shared services student (m/f/d)",
+   "t": "2026-11-23T12:34:35+00:00"
   },
   "li:4493774314": {
    "sig": "serb pharmaceuticals|stagiaire pharmacovigilance f/h",
