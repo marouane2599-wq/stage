@@ -443,6 +443,10 @@
    "sig": "amundi|stage - expertise applicatif front office - commando asset management software h/f",
    "t": "2026-11-23T15:30:55+00:00"
   },
+  "ts:jobs.amundi.com:117700": {
+   "sig": "amundi|developpeur fullstack ia h/f",
+   "t": "2026-11-23T15:50:37+00:00"
+  },
   "ts:jobs.amundi.com:99916": {
    "sig": "amundi|senior project manager m/f",
    "t": "2026-11-23T10:06:22+00:00"
@@ -579,6 +583,10 @@
    "sig": "caceis|stage - analyste financement middle office peres h/f",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "ts:jobs.caceis.com:116464": {
+   "sig": "caceis|stage - reporting officer - private equity, real estate solutions m/f h/f",
+   "t": "2026-11-23T15:50:37+00:00"
+  },
   "ts:jobs.caceis.com:117225": {
    "sig": "caceis|stage - cash reconciliation officer h/f",
    "t": "2026-11-23T10:06:22+00:00"
@@ -609,7 +617,7 @@
   }
  },
  "source_failures": {
-  "linkedin": 2,
+  "linkedin": 0,
   "talentsoft": 0
  }
 }
