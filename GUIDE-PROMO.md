@@ -37,7 +37,7 @@ Toujours dans Settings, va dans **Actions**, puis **General**, descends tout en 
 C'est là que tu le règles pour toi. Ouvre le fichier `config.yaml` dans ton dépôt et clique sur le petit crayon pour le modifier.
 
 Les trucs à changer :
-- **keywords** : ce que le bot tape dans la recherche LinkedIn
+- **keywords** : ce que le bot tape dans la recherche LinkedIn. Mets toujours "stage" ou "intern" dedans, sinon LinkedIn te ramène surtout des CDI
 - **locations** : tes villes, écrites comme sur LinkedIn (`"Lyon, Auvergne-Rhône-Alpes, France"`, `"Nice, Provence-Alpes-Côte d'Azur, France"`…)
 - **include** : l'intitulé de l'offre doit contenir au moins un de ces mots
 - **exclude** : si l'intitulé contient un de ces mots, poubelle (alternance, CDI, etc.)
@@ -45,6 +45,8 @@ Les trucs à changer :
 - **talentsoft** : les sites Amundi, CACEIS et Indosuez. Vire ceux qui t'intéressent pas
 
 Pas besoin d'accents ni de majuscules. Et un mot attrape ses variantes : `liquidit` trouve "liquidité". Si tu veux le mot exact, mets un `!` à la fin : `market!` évite de te ramener du "marketing".
+
+Le bot vire déjà tout seul les CDI, les alternances et les postes seniors (manager, senior, head…), t'as pas besoin de les ajouter.
 
 Fais gaffe à pas mettre trop de mots-clés et de villes : max 6 mots-clés × 3 villes, sinon LinkedIn bloque.
 
@@ -54,7 +56,7 @@ Je t'ai mis des exemples selon ce que tu cherches, t'as juste à remplacer les l
 
 **Audit / conseil**
 ```yaml
-  keywords: [audit, "transaction services", conseil financier]
+  keywords: ["stage audit", "stage transaction services", "audit intern"]
 # dans include :
     - audit
     - auditeur
@@ -66,7 +68,7 @@ Je t'ai mis des exemples selon ce que tu cherches, t'as juste à remplacer les l
 
 **Corporate finance / M&A**
 ```yaml
-  keywords: ["M&A", "corporate finance", "fusions acquisitions", "private equity"]
+  keywords: ["stage M&A", "stage corporate finance", "stage private equity", "M&A intern"]
 # dans include :
     - m&a
     - merger
@@ -78,7 +80,7 @@ Je t'ai mis des exemples selon ce que tu cherches, t'as juste à remplacer les l
 
 **Patrimoine / banque privée**
 ```yaml
-  keywords: [patrimoine, "banque privée", "wealth management", "private banking"]
+  keywords: ["stage gestion de patrimoine", "stage banque privée", "wealth management intern"]
 # dans include :
     - patrimoin
     - wealth
@@ -89,7 +91,7 @@ Je t'ai mis des exemples selon ce que tu cherches, t'as juste à remplacer les l
 
 **Asset management**
 ```yaml
-  keywords: ["asset management", "gestion d'actifs", "portfolio manager"]
+  keywords: ["stage asset management", "stage gestion d'actifs", "asset management intern"]
 # dans include :
     - asset management
     - gestion d'actifs
