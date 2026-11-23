@@ -118,6 +118,14 @@ filters:
     - stage de 2 mois
     - stage de 3 mois
     - summer
+    - alimentaire
+    - qhse
+    - hse!
+    - sante
+    - environnement
+    - industriel
+    - supply chain
+    - achats
   # Postes expérimentés à éliminer (même si "stage" apparaît quelque part)
   seniority:
     - senior
