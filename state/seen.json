@@ -1,7 +1,12 @@
 {
  "consecutive_failures": 0,
  "last_heartbeat": "2026-11-23",
+ "repo": "marouane2599-wq/stage",
  "seen": {
+  "li:4324132008": {
+   "sig": "deloitte|excellence track program : stage ingenieur fin d’etudes – parcours audit financier/tech – paris la defense f/h",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
   "li:4429603053": {
    "sig": "mutuaide|charge des risques operationnels & controle permanent h/f",
    "t": "2026-11-23T10:06:22+00:00"
@@ -18,9 +23,21 @@
    "sig": "goldman sachs|risk, market risk, analyst, paris",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "li:4458883585": {
+   "sig": "bel|stage - assistant(e) reglementation securite alimentaire & risques emergents (h/f/x) - janvier 2027",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4467858625": {
+   "sig": "ey|intern valuation",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
   "li:4467865859": {
    "sig": "credit mutuel|cheffe/chef de projet (f/h) - pilotage des risques - assurance et conglomerat",
    "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4467893663": {
+   "sig": "ey|audit internship - from october 2027 to march 2028",
+   "t": "2026-11-23T12:18:47+00:00"
   },
   "li:4468026168": {
    "sig": "deloitte|consultant senior - gestion des risques, conformite & analyse de donnees – secteur industrie et services f/h",
@@ -34,13 +51,57 @@
    "sig": "pwc france|consultant senior non financial risk f/h",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "li:4484492644": {
+   "sig": "pwc france|stage consultant conformite & controle interne asset management f/h",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4491302594": {
+   "sig": "banque de france|idf_analyste financier h/f",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4492394832": {
+   "sig": "caceis|stage - project manager assistant h/f",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
   "li:4492397048": {
    "sig": "finalyse|consultant confirme - senior - analyste quantitatif risque de credit",
    "t": "2026-11-23T10:06:22+00:00"
   },
+  "li:4492399409": {
+   "sig": "dalkia|stagiaire audit / controle interne et datamining (a partir de janvier 2027) f/h",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4493190875": {
+   "sig": "anine bing|credit control intern",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
   "li:4493370181": {
    "sig": "groupe valmen|manager – risques et conformite",
    "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4493622628": {
+   "sig": "axionable|stagiaire fin d'etudes - consultant.e strategie data / ia (f/h)",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4493631436": {
+   "sig": "bnp paribas|internship - research analyst or strategy & market intelligence (m/f)",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4493752948": {
+   "sig": "fairly made|product regulatory affairs & compliance (legal) - internship (f/m/x)",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4493759883": {
+   "sig": "john deere|financial internship",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4493766329": {
+   "sig": "covea finance|stage controleur interne (h/f)",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4493774314": {
+   "sig": "serb pharmaceuticals|stagiaire pharmacovigilance f/h",
+   "t": "2026-11-23T12:18:47+00:00"
   },
   "ts:jobs.amundi.com:100324": {
    "sig": "amundi|solution architect (m/f/d)",
@@ -117,6 +178,18 @@
   "ts:jobs.amundi.com:117627": {
    "sig": "amundi|client services officer m/f",
    "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117667": {
+   "sig": "amundi|stage - quantitative researcher h/f",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "ts:jobs.amundi.com:117668": {
+   "sig": "amundi|stagiaire en developpement informatique h/f",
+   "t": "2026-11-23T12:18:47+00:00"
+  },
+  "ts:jobs.amundi.com:117674": {
+   "sig": "amundi|stage ingenierie financiere h/f",
+   "t": "2026-11-23T12:18:47+00:00"
   },
   "ts:jobs.amundi.com:99916": {
    "sig": "amundi|senior project manager m/f",
@@ -282,5 +355,9 @@
    "sig": "caceis|stage - internal auditor it h/f",
    "t": "2026-11-23T10:06:22+00:00"
   }
+ },
+ "source_failures": {
+  "linkedin": 0,
+  "talentsoft": 0
  }
 }
