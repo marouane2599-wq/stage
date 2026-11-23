@@ -1,0 +1,124 @@
+# =====================================================================
+#  Config de la veille de stages. Tu peux tout modifier ici sans toucher
+#  au code. Les mots-clés sont insensibles aux majuscules et aux accents.
+#  Un terme matche les mots qui COMMENCENT par lui ("liquidit" trouve
+#  "liquidité"). Ajoute "!" à la fin pour exiger le mot entier.
+# =====================================================================
+
+# ---------- LinkedIn (source principale) ----------
+linkedin:
+  # Recherches lancées à chaque passage (mot-clé x lieu).
+  # Garde la liste courte : trop de requêtes = LinkedIn te bloque.
+  keywords:
+    - risk
+    - risque
+    - middle office
+    - back office
+    - ALM
+    - wealth planning
+  locations:
+    - "Paris, Île-de-France, France"
+    - "Luxembourg"
+    - "Monaco"
+  # Uniquement les offres publiées dans les X dernières heures
+  max_age_hours: 24
+
+# ---------- Sites carrières Workday (optionnel) ----------
+# Beaucoup de banques utilisent Workday : l'URL de leur page carrières
+# ressemble à https://NOM.wd3.myworkdayjobs.com/NomDuSite
+# Copie-colle cette URL ici (sans le /job/... à la fin).
+workday:
+  search_terms: ["intern", "stage", "internship"]
+  sites: []
+  #  - name: "Exemple Banque"
+  #    url: "https://exemple.wd3.myworkdayjobs.com/Careers"
+
+# ---------- Sites carrières SmartRecruiters (optionnel) ----------
+# URL du type https://jobs.smartrecruiters.com/NomEntreprise -> mets NomEntreprise
+smartrecruiters:
+  search_terms: ["intern", "stage"]
+  companies: []
+  #  - name: "Exemple"
+  #    id: "Exemple"
+
+# ---------- Filtres sur l'intitulé ----------
+filters:
+  # L'intitulé doit contenir AU MOINS UN de ces termes
+  include:
+    - risk
+    - risque
+    - middle office
+    - back office
+    - alm
+    - liquidit
+    - contrepartie
+    - counterparty
+    - market!          # le "!" = mot entier (évite "marketing")
+    - markets
+    - marches
+    - marche!
+    - valuation
+    - valorisation
+    - derivative
+    - derive
+    - collateral
+    - fund admin
+    - fund accounting
+    - investment restriction
+    - investment compliance
+    - wealth planning
+    - ingenierie patrimoniale
+    - patrimoin
+    - private bank
+    - banque privee
+    - treasury
+    - tresorerie
+    - asset management
+    - gestion d'actifs
+    - portfolio
+    - quant
+    - securities
+    - titres
+  # L'intitulé ne doit contenir AUCUN de ces termes
+  exclude:
+    - alternance
+    - alternant
+    - apprenti
+    - apprentissage
+    - work-study
+    - work study
+    - apprenticeship
+    - cdi
+    - cdd
+    - conseiller
+    - charge de clientele
+    - chargee de clientele
+    - attache commercial
+    - agence
+    - business develop
+    - credit consommation
+    - particuliers
+    - stage de 2 mois
+    - stage de 3 mois
+    - summer
+  # Termes qui donnent le badge 🔥 (ton cœur de cible)
+  priority:
+    - market risk
+    - risque de marche
+    - counterparty
+    - contrepartie
+    - liquidity
+    - liquidite
+    - alm
+    - risk analyst
+    - analyste risque
+    - risk governance
+    - risk management
+    - gestion des risques
+    - valuation
+    - investment restriction
+
+# Pour Workday / SmartRecruiters, l'offre doit être un stage
+# et se situer dans un de ces lieux (si le lieu est connu)
+internship_terms: ["stage", "stagiaire", "intern", "internship", "trainee"]
+allowed_locations: ["paris", "ile-de-france", "la defense", "puteaux", "montrouge", "courbevoie", "nanterre", "neuilly", "saint-denis", "france", "luxembourg", "monaco"]
