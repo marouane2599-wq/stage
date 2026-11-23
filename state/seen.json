@@ -1,5 +1,286 @@
 {
- "consecutive_failures": 1,
+ "consecutive_failures": 0,
  "last_heartbeat": "2026-11-23",
- "seen": {}
+ "seen": {
+  "li:4429603053": {
+   "sig": "mutuaide|charge des risques operationnels & controle permanent h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4448448931": {
+   "sig": "ey|consultant(e) senior risk new technologies f/h (paris)",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4448469025": {
+   "sig": "ey|manager risk new technologies f/h (paris)",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4450356390": {
+   "sig": "goldman sachs|risk, market risk, analyst, paris",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4467865859": {
+   "sig": "credit mutuel|cheffe/chef de projet (f/h) - pilotage des risques - assurance et conglomerat",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4468026168": {
+   "sig": "deloitte|consultant senior - gestion des risques, conformite & analyse de donnees – secteur industrie et services f/h",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4475395661": {
+   "sig": "pwc france|consultant manager non financial risk f/h",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4476177181": {
+   "sig": "pwc france|consultant senior non financial risk f/h",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4492397048": {
+   "sig": "finalyse|consultant confirme - senior - analyste quantitatif risque de credit",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "li:4493370181": {
+   "sig": "groupe valmen|manager – risques et conformite",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:100324": {
+   "sig": "amundi|solution architect (m/f/d)",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:100828": {
+   "sig": "amundi|senior software architect (m/f/d) m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:105838": {
+   "sig": "amundi|(senior) consultant / business analyst m/f/d m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:113569": {
+   "sig": "amundi|head of project management (f/m/d)",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:113839": {
+   "sig": "amundi|(senior) consultant / business analyst - product development (m/f/d)",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:114438": {
+   "sig": "amundi|credit analyst-risk manager (arm) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:115292": {
+   "sig": "amundi|stage - assistant chef de projets evenementiels h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:116764": {
+   "sig": "amundi|chef de projet clients strategiques en actionnariat salarie h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:116803": {
+   "sig": "amundi|content marketing manager",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117067": {
+   "sig": "amundi|stage - compliance officer h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117529": {
+   "sig": "amundi|stage - project corporate governance (6/12 mois) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117530": {
+   "sig": "amundi|stage - gestion sous mandat assistant gerant h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117543": {
+   "sig": "amundi|internship - client service distribution support (6 months) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117550": {
+   "sig": "amundi|priips reporting expertise specialist m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117583": {
+   "sig": "amundi|internship compliance - spanish bilingual m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117587": {
+   "sig": "amundi|client regulatory reporting specialist (specified purpose contract) m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117615": {
+   "sig": "amundi|cross border product management & delivery vie m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117625": {
+   "sig": "amundi|head of middle office m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117627": {
+   "sig": "amundi|client services officer m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:99916": {
+   "sig": "amundi|senior project manager m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:101785": {
+   "sig": "indosuez wealth management|middle officer (vie) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:107316": {
+   "sig": "indosuez wealth management|vie-junior transaction officer m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:109262": {
+   "sig": "indosuez wealth management|conseiller en investissement h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:113710": {
+   "sig": "indosuez wealth management|investment advisor - expert fixed income h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:114962": {
+   "sig": "indosuez wealth management|senior market risk analyst h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:116172": {
+   "sig": "indosuez wealth management|wealth manager - polish market h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:116398": {
+   "sig": "indosuez wealth management|charge d'affaires financement immobilier h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:116939": {
+   "sig": "indosuez wealth management|trade finance officer h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:116972": {
+   "sig": "indosuez wealth management|junior marketing & communication officer (vie) m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:116976": {
+   "sig": "indosuez wealth management|gestionnaire de sinistres construction chez camca luxembourg h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117056": {
+   "sig": "indosuez wealth management|stagiaire - salle des marches h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117104": {
+   "sig": "indosuez wealth management|senior manager, aml compliance m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117106": {
+   "sig": "indosuez wealth management|specialiste produits otc fx h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117208": {
+   "sig": "indosuez wealth management|vie compliance officer h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117286": {
+   "sig": "indosuez wealth management|associate director, credit administration m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117416": {
+   "sig": "indosuez wealth management|learning & development officer h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117426": {
+   "sig": "indosuez wealth management|iam security it architect h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117438": {
+   "sig": "indosuez wealth management|juriste fiscaliste h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117517": {
+   "sig": "indosuez wealth management|analyste risque credit h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.ca-indosuez.com:117589": {
+   "sig": "indosuez wealth management|developpeur .net / it officer chez camca assurance sa au luxembourg h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:106908": {
+   "sig": "caceis|team manager opc - fund administration h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:109253": {
+   "sig": "caceis|stage - business coordinateur h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:109914": {
+   "sig": "caceis|cdd - data officer (static data) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:110612": {
+   "sig": "caceis|enterprise architect (architecte d'entreprise) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:111703": {
+   "sig": "caceis|stage - gestionnaire d'operations clientele - actif (peres) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:112009": {
+   "sig": "caceis|stage gestionnaire back office fds h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:112320": {
+   "sig": "caceis|stage - client operations officer - investor services (peres) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:114800": {
+   "sig": "caceis|fund accountant opc (comptable opc-mandats) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:115497": {
+   "sig": "caceis|head of division - business implementation h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:115522": {
+   "sig": "caceis|data officer (dm entities) h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:115699": {
+   "sig": "caceis|assistant manager, user management officer m/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:116075": {
+   "sig": "caceis|stage - business analyst h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:116094": {
+   "sig": "caceis|stage - analyste financement middle office peres h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:117225": {
+   "sig": "caceis|stage - cash reconciliation officer h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:117227": {
+   "sig": "caceis|stage - charge de developpement it h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:117228": {
+   "sig": "caceis|stage - client onboarding officer - collateral / securities financing h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:117229": {
+   "sig": "caceis|stage - key performance indicator reporting officer h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:117230": {
+   "sig": "caceis|stage - business lines permanent control officer h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:117237": {
+   "sig": "caceis|stage – regulatory watch officer – compliance h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:117370": {
+   "sig": "caceis|stage - internal auditor it h/f",
+   "t": "2026-11-23T10:06:22+00:00"
+  }
+ }
 }
