@@ -213,6 +213,44 @@ def fetch_smartrecruiters(cfg: dict) -> tuple[list, int, int]:
     return jobs, ok, ko
 
 
+def fetch_talentsoft(cfg: dict) -> tuple[list, int, int]:
+    """Sites carrières du groupe Crédit Agricole (Amundi, CACEIS, Indosuez...) :
+    ils publient un flux RSS des 20 dernières offres."""
+    import xml.etree.ElementTree as ET
+    jobs, ok, ko = [], 0, 0
+    for site in cfg.get("sites", []) or []:
+        host = site.get("host", "").strip().strip("/")
+        url = f"https://{host}/handlers/offerRss.ashx?LCID=1036"
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            r.raise_for_status()
+            root = ET.fromstring(r.content)
+            ok += 1
+        except (requests.RequestException, ET.ParseError) as e:
+            print(f"[talentsoft] {site.get('name')} erreur : {e}")
+            ko += 1
+            continue
+        for item in root.iter("item"):
+            raw_title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            # "2025-100324 - Stage - Analyste risques H/F" -> on retire la référence
+            title = re.sub(r"^\d{4}-\d+\s*-\s*", "", raw_title)
+            m = re.search(r"idOffre=(\d+)", link)
+            jobs.append({
+                "key": f"ts:{host}:{m.group(1) if m else link}",
+                "source": site.get("name", host),
+                "title": title,
+                "company": site.get("name", host),
+                "location": "",
+                "posted": "",
+                "posted_label": (item.findtext("pubDate") or "").strip(),
+                "url": link,
+                "is_internship_source": False,
+            })
+        polite_sleep()
+    return jobs, ok, ko
+
+
 # ---------------------------------------------------------------- filtrage
 def keep(job: dict, conf: dict) -> bool:
     f = conf["filters"]
@@ -291,8 +329,8 @@ def main() -> int:
         return 0
 
     all_jobs, total_ok, total_ko = [], 0, 0
-    for fetch, key in [(fetch_linkedin, "linkedin"), (fetch_workday, "workday"),
-                       (fetch_smartrecruiters, "smartrecruiters")]:
+    for fetch, key in [(fetch_linkedin, "linkedin"), (fetch_talentsoft, "talentsoft"),
+                       (fetch_workday, "workday"), (fetch_smartrecruiters, "smartrecruiters")]:
         jobs, ok, ko = fetch(conf.get(key) or {})
         all_jobs += jobs
         total_ok += ok

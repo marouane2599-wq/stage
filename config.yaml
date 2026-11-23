@@ -23,6 +23,18 @@ linkedin:
   # Uniquement les offres publiées dans les X dernières heures
   max_age_hours: 24
 
+# ---------- Sites carrières du groupe Crédit Agricole ----------
+# Flux RSS des 20 dernières offres publiées sur le site carrières.
+# Seuls les intitulés contenant "stage", "intern", "trainee"... sont gardés.
+talentsoft:
+  sites:
+    - name: "Amundi"
+      host: "jobs.amundi.com"
+    - name: "CACEIS"
+      host: "jobs.caceis.com"
+    - name: "Indosuez Wealth Management"
+      host: "jobs.ca-indosuez.com"
+
 # ---------- Sites carrières Workday (optionnel) ----------
 # Beaucoup de banques utilisent Workday : l'URL de leur page carrières
 # ressemble à https://NOM.wd3.myworkdayjobs.com/NomDuSite

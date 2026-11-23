@@ -1,6 +1,6 @@
 # Bot de veille de stages (GitHub + Telegram)
 
-Toutes les 10 minutes, de 6h à 23h, le bot interroge LinkedIn (plus les sites carrières que tu ajoutes). Il filtre les offres selon `config.yaml` et t'envoie chaque **nouvelle** offre sur Telegram. 🔥 = ton cœur de cible (risque de marché, contrepartie, ALM, liquidité…).
+Toutes les 10 minutes, de 6h à 23h, le bot interroge LinkedIn et les sites carrières d'Amundi, CACEIS et Indosuez (plus ceux que tu ajoutes). Il filtre les offres selon `config.yaml` et t'envoie chaque **nouvelle** offre sur Telegram. 🔥 = ton cœur de cible (risque de marché, contrepartie, ALM, liquidité…).
 
 Ça te prend environ 15 minutes à installer, et c'est gratuit.
 
