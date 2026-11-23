@@ -321,6 +321,14 @@ def send_jobs(jobs: list, priority_terms) -> None:
 def main() -> int:
     conf = yaml.safe_load(CONFIG_FILE.read_text(encoding="utf-8"))
     state = load_state()
+    # Si le dépôt a été copié par quelqu'un d'autre, on repart de zéro :
+    # sa liste d'offres "déjà vues" ne doit pas être celle de l'auteur.
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    if repo and state.get("repo") not in (None, repo):
+        print(f"Nouveau dépôt ({repo}) : remise à zéro des offres vues")
+        state = {"seen": {}, "consecutive_failures": 0, "last_heartbeat": ""}
+    if repo:
+        state["repo"] = repo
     first_run = not state["seen"]
     now = datetime.now(timezone.utc)
 
