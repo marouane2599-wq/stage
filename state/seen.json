@@ -495,6 +495,10 @@
    "sig": "banque de luxembourg|stagiaire legal",
    "t": "2026-11-24T08:50:42+00:00"
   },
+  "li:4493996842": {
+   "sig": "manco.paris|stage – modelisation actuarielle & controle des risques",
+   "t": "2026-11-24T09:20:46+00:00"
+  },
   "li:4494004089": {
    "sig": "exalt|trading support - finance de marche",
    "t": "2026-11-23T14:20:52+00:00"
@@ -558,6 +562,10 @@
   "li:4494301104": {
    "sig": "fundsight|risk officer – ucits (m/f)",
    "t": "2026-11-24T02:01:10+00:00"
+  },
+  "li:4494312810": {
+   "sig": "ovhcloud|stage – sales operations / gestion contractuelle",
+   "t": "2026-11-24T09:20:46+00:00"
   },
   "li:4494331065": {
    "sig": "allianz luxembourg|stage - full stack developer (6 mois)",
@@ -893,7 +901,7 @@
   }
  },
  "source_failures": {
-  "linkedin": 2,
+  "linkedin": 0,
   "talentsoft": 0
  }
 }
