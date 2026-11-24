@@ -371,6 +371,10 @@
    "sig": "luxembourg institute of science and technology (list)|int-27002 hr internship – career and talent management",
    "t": "2026-11-24T12:30:55+00:00"
   },
+  "li:4493017987": {
+   "sig": "fanuc europe|intern marketing",
+   "t": "2026-11-24T16:40:53+00:00"
+  },
   "li:4493018379": {
    "sig": "stellantis finance & services - credipar|stagiaire 6 mois controle permanent h/f",
    "t": "2026-11-24T14:01:08+00:00"
@@ -378,6 +382,10 @@
   "li:4493026558": {
    "sig": "ashurst perkins coie|stage global markets - 2eme semestre 2027",
    "t": "2026-11-24T16:20:49+00:00"
+  },
+  "li:4493031288": {
+   "sig": "ashurst perkins coie|legal intern - corporate m&a (july - december 2027)",
+   "t": "2026-11-24T16:40:53+00:00"
   },
   "li:4493190875": {
    "sig": "anine bing|credit control intern",
@@ -698,6 +706,10 @@
   "li:4494153269": {
    "sig": "bouygues telecom|stage comptable f/h",
    "t": "2026-11-24T15:30:56+00:00"
+  },
+  "li:4494158439": {
+   "sig": "lcl|stage - data analyst & alm liquidite h/f",
+   "t": "2026-11-24T16:40:53+00:00"
   },
   "li:4494169207": {
    "sig": "amal embroideries|studio coordination intern",
@@ -1070,6 +1082,10 @@
   "ts:jobs.caceis.com:117653": {
    "sig": "caceis|hr business partner h/f",
    "t": "2026-11-23T16:40:37+00:00"
+  },
+  "ts:jobs.caceis.com:117765": {
+   "sig": "caceis|stage - juriste de marches h/f",
+   "t": "2026-11-24T16:40:53+00:00"
   }
  },
  "source_failures": {
