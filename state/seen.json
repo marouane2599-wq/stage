@@ -323,6 +323,10 @@
    "sig": "tohmo|stage - assistant.e adv/facturation b2b - h/f",
    "t": "2026-11-23T18:30:54+00:00"
   },
+  "li:4492647337": {
+   "sig": "societe generale corporate and investment banking - sgcib|assistant sales",
+   "t": "2026-11-24T13:50:39+00:00"
+  },
   "li:4492648255": {
    "sig": "societe generale corporate and investment banking - sgcib|collateral trader assistant",
    "t": "2026-11-23T18:20:42+00:00"
@@ -946,6 +950,10 @@
   "ts:jobs.caceis.com:114800": {
    "sig": "caceis|fund accountant opc (comptable opc-mandats) h/f",
    "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.caceis.com:115034": {
+   "sig": "caceis|client operations officer - other process (custody) h/f",
+   "t": "2026-11-24T13:50:39+00:00"
   },
   "ts:jobs.caceis.com:115497": {
    "sig": "caceis|head of division - business implementation h/f",
