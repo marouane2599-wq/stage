@@ -31,6 +31,10 @@
    "sig": "pwc luxembourg|risk assurance – internal audit / internal control manager (m/w/d) - deutschsprachig",
    "t": "2026-11-23T13:01:21+00:00"
   },
+  "li:4420134742": {
+   "sig": "pwc luxembourg|praktikum in der wirtschaftsprufung - januar 2027 (m/w/d)",
+   "t": "2026-11-25T09:50:50+00:00"
+  },
   "li:4429603053": {
    "sig": "mutuaide|charge des risques operationnels & controle permanent h/f",
    "t": "2026-11-23T10:06:22+00:00"
@@ -1341,7 +1345,7 @@
   }
  },
  "source_failures": {
-  "linkedin": 1,
+  "linkedin": 0,
   "talentsoft": 0
  }
 }
