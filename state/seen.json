@@ -999,6 +999,10 @@
    "sig": "laboratoire serp sam|aide-comptable cdd / alternant(e) en comptabilite",
    "t": "2026-11-25T09:20:43+00:00"
   },
+  "li:4494606735": {
+   "sig": "ramdam social|stage chef de secteur paris",
+   "t": "2026-11-25T11:40:39+00:00"
+  },
   "li:4494607725": {
    "sig": "european investment bank (eib)|eib trainee - group risk & compliance directorate - partnerships unit - based in luxembourg",
    "t": "2026-11-25T11:10:53+00:00"
@@ -1006,6 +1010,10 @@
   "li:4494611528": {
    "sig": "systra|stagiaire analyste fusions et acquisitions (m&a) – (h-f)",
    "t": "2026-11-25T10:50:43+00:00"
+  },
+  "li:4494631004": {
+   "sig": "banque de luxembourg|stagiaire business development (as)",
+   "t": "2026-11-25T11:40:39+00:00"
   },
   "li:4494730149": {
    "sig": "maison alaia|stage - assistant(e) e-commerce (h/f)",
@@ -1031,9 +1039,25 @@
    "sig": "ing luxembourg|internship - hr operations",
    "t": "2026-11-25T06:40:41+00:00"
   },
+  "li:4494793943": {
+   "sig": "aztec group|intern - fund administrator",
+   "t": "2026-11-25T11:40:39+00:00"
+  },
   "li:4494795742": {
    "sig": "leasys|stage en administration",
    "t": "2026-11-25T10:30:55+00:00"
+  },
+  "li:4494796930": {
+   "sig": "resultance|stage/alternance – charge(e) des ressources humaines",
+   "t": "2026-11-25T11:40:39+00:00"
+  },
+  "li:4494903606": {
+   "sig": "malt|chief of staff chro (internship or apprenticeship) - january 2027",
+   "t": "2026-11-25T11:40:39+00:00"
+  },
+  "li:4494904641": {
+   "sig": "morning|stage - bras droit de la direction immobilier",
+   "t": "2026-11-25T11:40:39+00:00"
   },
   "li:4494905521": {
    "sig": "ubs|compliance officer",
@@ -1182,6 +1206,10 @@
   "ts:jobs.amundi.com:117768": {
    "sig": "amundi|sales manager - third parties distribution m/w/d",
    "t": "2026-11-24T17:31:01+00:00"
+  },
+  "ts:jobs.amundi.com:117790": {
+   "sig": "amundi|stage - charge(e) de marketing et communication b2b amundi epargne salariale & retraite h/f",
+   "t": "2026-11-25T11:40:39+00:00"
   },
   "ts:jobs.amundi.com:99916": {
    "sig": "amundi|senior project manager m/f",
