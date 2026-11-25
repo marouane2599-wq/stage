@@ -455,6 +455,10 @@
    "sig": "deloitte|cross-border fund services - analyst - as of january 2027",
    "t": "2026-11-24T23:20:40+00:00"
   },
+  "li:4493059524": {
+   "sig": "axa en france|stage - audit interne - fevrier 2027",
+   "t": "2026-11-25T01:01:06+00:00"
+  },
   "li:4493066332": {
    "sig": "axa en france|assistant middle office - stage",
    "t": "2026-11-25T00:30:53+00:00"
@@ -883,6 +887,14 @@
    "sig": "soletanche freyssinet|stage ingenieur charge d'etudes genie civil f/h",
    "t": "2026-11-25T00:10:41+00:00"
   },
+  "li:4494448761": {
+   "sig": "vinci energies|stage ingenieur charge d'etudes genie civil f/h",
+   "t": "2026-11-25T01:01:06+00:00"
+  },
+  "li:4494462020": {
+   "sig": "credit agricole payment services|stage charge(e) de conformite stagiaire h/f",
+   "t": "2026-11-25T01:01:06+00:00"
+  },
   "li:4494730149": {
    "sig": "maison alaia|stage - assistant(e) e-commerce (h/f)",
    "t": "2026-11-24T19:40:51+00:00"
@@ -894,6 +906,10 @@
   "li:4494749740": {
    "sig": "schneider electric|stage assistant supply chain, approvisionnement & logistique (f/h) - villeneuve la garenne",
    "t": "2026-11-25T00:30:53+00:00"
+  },
+  "li:4494756661": {
+   "sig": "lux-airport|stagiaire - projet de developpement d'un registre des risques pour la securite",
+   "t": "2026-11-25T01:01:06+00:00"
   },
   "ts:jobs.amundi.com:100324": {
    "sig": "amundi|solution architect (m/f/d)",
