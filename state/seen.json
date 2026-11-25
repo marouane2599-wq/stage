@@ -227,6 +227,10 @@
    "sig": "quintet private bank|alternative assets monitoring officer - 1 year fixed-term contract",
    "t": "2026-11-25T10:20:41+00:00"
   },
+  "li:4479288129": {
+   "sig": "dz privatbank ag|werkstudent operations - kundenstammdaten (m/w/d)",
+   "t": "2026-11-25T12:30:57+00:00"
+  },
   "li:4481457500": {
    "sig": "morgan philips specialist recruitment|data & client reporting officer f/h - societe de gestion d'actifs - lu879784",
    "t": "2026-11-23T13:20:41+00:00"
@@ -334,6 +338,10 @@
   "li:4487031400": {
    "sig": "hellofresh|delivery operations business analyst intern france et benelux(m/f/x)",
    "t": "2026-11-25T09:30:53+00:00"
+  },
+  "li:4488949909": {
+   "sig": "societe generale|assistant charge d'operations garanties",
+   "t": "2026-11-25T12:30:57+00:00"
   },
   "li:4489955513": {
    "sig": "fimexco sam|collaborateur/trice comptable h/f - cdi - monaco",
@@ -1023,6 +1031,14 @@
    "sig": "sanofi|stage 6 mois gestion de risques",
    "t": "2026-11-25T12:10:40+00:00"
   },
+  "li:4494621710": {
+   "sig": "louis vuitton|stage – assistant.e gemmologie (f/h) – mars 2027",
+   "t": "2026-11-25T12:30:57+00:00"
+  },
+  "li:4494630156": {
+   "sig": "the silk road|e-commerce & brand operations intern",
+   "t": "2026-11-25T12:30:57+00:00"
+  },
   "li:4494631004": {
    "sig": "banque de luxembourg|stagiaire business development (as)",
    "t": "2026-11-25T11:40:39+00:00"
@@ -1074,6 +1090,10 @@
   "li:4494905521": {
    "sig": "ubs|compliance officer",
    "t": "2026-11-25T11:20:47+00:00"
+  },
+  "li:4494907644": {
+   "sig": "cmb monaco|offre d'emploi specialiste du suivi des transactions f/h",
+   "t": "2026-11-25T12:30:57+00:00"
   },
   "li:4494910030": {
    "sig": "able|stage business analyst private equity · fintech saas (h/f)",
@@ -1222,6 +1242,10 @@
   "ts:jobs.amundi.com:117790": {
    "sig": "amundi|stage - charge(e) de marketing et communication b2b amundi epargne salariale & retraite h/f",
    "t": "2026-11-25T11:40:39+00:00"
+  },
+  "ts:jobs.amundi.com:117791": {
+   "sig": "amundi|stage – talent acquisition assistant / charge.e de recrutement h/f",
+   "t": "2026-11-25T12:30:57+00:00"
   },
   "ts:jobs.amundi.com:99916": {
    "sig": "amundi|senior project manager m/f",
