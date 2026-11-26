@@ -75,6 +75,10 @@
    "sig": "celine|stage - assistant.e supply & distribution planner (f/h/x) - janvier 2027",
    "t": "2026-11-23T18:30:54+00:00"
   },
+  "li:4442072285": {
+   "sig": "aquila capital|intern / working student (m/f/d) fund management and reporting",
+   "t": "2026-11-26T12:01:22+00:00"
+  },
   "li:4448448931": {
    "sig": "ey|consultant(e) senior risk new technologies f/h (paris)",
    "t": "2026-11-23T10:06:22+00:00"
@@ -282,6 +286,10 @@
   "li:4479003127": {
    "sig": "credit agricole|stage au sein de l'equipe de modelisation alm de credit agricole s.a. h/f",
    "t": "2026-11-25T11:10:53+00:00"
+  },
+  "li:4479006099": {
+   "sig": "credit agricole|stage - ingenieur quantitatif – challenge des techniques de validation des performances de modeles h/f",
+   "t": "2026-11-26T12:01:22+00:00"
   },
   "li:4479233480": {
    "sig": "quintet private bank|alternative assets monitoring officer - 1 year fixed-term contract",
@@ -1255,6 +1263,10 @@
    "sig": "agence lucette|stage – assistant(e) communication et relations medias",
    "t": "2026-11-25T16:40:49+00:00"
   },
+  "li:4494654763": {
+   "sig": "european investment bank (eib)|eib trainee - group risk & compliance directorate - regulation & eib group risk department - rating modelling and oversight unit - based in luxembourg",
+   "t": "2026-11-26T12:01:22+00:00"
+  },
   "li:4494657805": {
    "sig": "axa|internship - p&c capital management",
    "t": "2026-11-25T17:01:11+00:00"
@@ -1418,6 +1430,10 @@
   "li:4495276270": {
    "sig": "european investment fund (eif)|eif trainee - regional representation",
    "t": "2026-11-26T09:50:40+00:00"
+  },
+  "li:4495278757": {
+   "sig": "societe generale|v.i.e. treasury officer",
+   "t": "2026-11-26T12:01:22+00:00"
   },
   "li:4495282338": {
    "sig": "deloitte|intern or analyst - fund performance measurement - as of january 2027",
@@ -1821,7 +1837,7 @@
   }
  },
  "source_failures": {
-  "linkedin": 1,
+  "linkedin": 0,
   "talentsoft": 0
  }
 }
