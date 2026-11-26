@@ -935,6 +935,10 @@
    "sig": "coni+partner ag|data scientist behavioral finance / pe fund investments",
    "t": "2026-11-26T09:50:40+00:00"
   },
+  "li:4493817932": {
+   "sig": "stellantis finance & services - credipar|stagiaire 6 mois charge de conformite et fraude h/f",
+   "t": "2026-11-26T15:01:08+00:00"
+  },
   "li:4493824458": {
    "sig": "stellantis finance & services - credipar|stagiaire 6 mois gestionnaire support juridique h/f",
    "t": "2026-11-26T14:40:43+00:00"
@@ -942,6 +946,10 @@
   "li:4493826383": {
    "sig": "stellantis finance & services - credipar|stagiaire 6 mois assistant front office h/f",
    "t": "2026-11-26T14:36:01+00:00"
+  },
+  "li:4493829412": {
+   "sig": "stellantis finance & services - credipar|stagiaire 6 mois analyste en risque alm h/f",
+   "t": "2026-11-26T15:01:08+00:00"
   },
   "li:4493832110": {
    "sig": "dnb luxembourg s.a.|operations officer – dnb luxembourg",
@@ -1598,6 +1606,10 @@
   "ts:jobs.amundi.com:117067": {
    "sig": "amundi|stage - compliance officer h/f",
    "t": "2026-11-23T10:06:22+00:00"
+  },
+  "ts:jobs.amundi.com:117086": {
+   "sig": "amundi|fund analyst - multi-asset solutions intern m/f",
+   "t": "2026-11-26T15:01:08+00:00"
   },
   "ts:jobs.amundi.com:117322": {
    "sig": "amundi|stagiaire ai compliance h/f",
