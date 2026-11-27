@@ -1119,6 +1119,10 @@
    "sig": "saint laurent|saint laurent stage assistant coordination studio tissus",
    "t": "2026-11-26T18:30:54+00:00"
   },
+  "li:4493886794": {
+   "sig": "mutti|assistant(e) administration des ventes (stagiaire) (h/f)",
+   "t": "2026-11-27T13:30:57+00:00"
+  },
   "li:4493892101": {
    "sig": "kfc|stagiaire assistant(e) marketing et brand management kfc belgique (h/f)",
    "t": "2026-11-27T10:40:39+00:00"
@@ -2043,6 +2047,10 @@
    "sig": "amundi|reporting specialist m/f",
    "t": "2026-11-26T12:10:43+00:00"
   },
+  "ts:jobs.amundi.com:117842": {
+   "sig": "amundi|vie - assistant operations, risques h/f",
+   "t": "2026-11-27T13:30:57+00:00"
+  },
   "ts:jobs.amundi.com:99916": {
    "sig": "amundi|senior project manager m/f",
    "t": "2026-11-23T10:06:22+00:00"
@@ -2273,7 +2281,7 @@
   }
  },
  "source_failures": {
-  "linkedin": 1,
+  "linkedin": 0,
   "talentsoft": 0
  }
 }
