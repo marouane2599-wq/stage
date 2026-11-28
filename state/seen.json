@@ -263,6 +263,10 @@
    "sig": "mbda|stage logiciel : generation automatique de donnees xml par ia et java f/h",
    "t": "2026-11-23T12:40:39+00:00"
   },
+  "li:4469750230": {
+   "sig": "aew|stage - 6 mois - fund controller junior f/h",
+   "t": "2026-11-28T12:20:42+00:00"
+  },
   "li:4470475779": {
    "sig": "amazon|process improvement specialist intern - 2027",
    "t": "2026-11-27T16:01:19+00:00"
@@ -2561,7 +2565,7 @@
   }
  },
  "source_failures": {
-  "linkedin": 1,
+  "linkedin": 0,
   "talentsoft": 0
  }
 }
