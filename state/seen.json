@@ -67,6 +67,10 @@
    "sig": "jpmorganchase|2027 global corporate banking - large-cap - off-cycle internship program - paris",
    "t": "2026-11-27T09:50:41+00:00"
   },
+  "li:4413815895": {
+   "sig": "forvis mazars en france|stagiaire de fin d'etudes - auditeur et consultant rse - h/f",
+   "t": "2026-11-28T14:10:40+00:00"
+  },
   "li:4420134742": {
    "sig": "pwc luxembourg|praktikum in der wirtschaftsprufung - januar 2027 (m/w/d)",
    "t": "2026-11-25T09:50:50+00:00"
@@ -514,6 +518,10 @@
   "li:4484492644": {
    "sig": "pwc france|stage consultant conformite & controle interne asset management f/h",
    "t": "2026-11-23T12:18:47+00:00"
+  },
+  "li:4484671573": {
+   "sig": "societe generale|analyste sur l'incertitude des ia agentiques",
+   "t": "2026-11-28T14:10:40+00:00"
   },
   "li:4484917629": {
    "sig": "heidelberg materials france|stagiaire rh recrutement et formation",
@@ -2601,7 +2609,7 @@
   }
  },
  "source_failures": {
-  "linkedin": 2,
+  "linkedin": 0,
   "talentsoft": 0
  }
 }
